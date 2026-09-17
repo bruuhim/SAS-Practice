@@ -8,6 +8,4 @@ if (nombre > 0) {
   console.log("Le nombre est négatif.");
 } else if (nombre == 0) {
   console.log("Le nombre est égal à zéro.");
-} else {
-  console.log("error");
 }

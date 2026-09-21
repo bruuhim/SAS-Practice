@@ -4,7 +4,7 @@ let tab = ["apple", "banana"];
 let add = prompt("Search for a fruit : ");
 let answer = false;
 
-for (i = 0; i <= tab.length; i++) {
+for (let i = 0; i < tab.length; i++) {
   if (add === tab[i]) {
     answer = true;
     break;
